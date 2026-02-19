@@ -6,7 +6,7 @@ const Header = () => {
     <header
       className="relative bg-black text-white min-h-screen bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/src/img/image-101.png')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/src/img/image-101 .png')`,
       }}
     >
       <div className="max-w-7xl mx-auto px-6 py-10 relative z-10 flex flex-col gap-24">
@@ -82,7 +82,11 @@ const Header = () => {
             смотреть каталог
           </button>
         </div>
-        
+        <img
+          src="/src/img/lover flower.png"
+          alt="Lover Flower Logo"
+          className="absolute bottom-0 right-0 w-1/3 md:w-1/4"
+        />
       </div>
     </header>
   );
